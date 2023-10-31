@@ -7,7 +7,7 @@ import Navigation from './Navigation';
 function App() {         /* Parent-main component*/
   return (               /* Return the JSX (JavaScript XML) that represents the structure of the component.*/
     <div className="App">  
-      <Navigation />       {/* Are these notes? */}
+      <Navigation />       
       <LoginForm /> 
     </div>               /* Navigation & LoginForm are child components */
 
