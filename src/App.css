@@ -1,0 +1,77 @@
+
+/* form and nav bar styling */
+
+body {   /* whole app background color */
+  background-color: rgb(50, 79, 206);
+ }
+ 
+
+.login-form {    /* controls the "Log In" */
+  text-align: center;
+}
+
+
+.login-heading {
+  color: rgb(17, 17, 1);
+  border: 2px #1aabe4;
+  border-style: outset;
+  max-width: 300px; /* Controls the "Log In" border */
+  margin: 0 auto; /* Center the element horizontally using margin */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  padding: 2px; /* Add padding to the element */
+  margin-top: 15px;
+  
+}
+
+.login-form Input { /* Controls "Username" and "Password" boxes   */
+  border: 2px solid rgb(12, 12, 12);
+  border-radius: 5px; /* makes input box border edges rounded */
+  margin-top: 50px;  /*creates bottom space from Input boxes */
+  margin-bottom: 10px; /*creates bottom space from Input boxes */
+  margin-right:0px; /*creates bottom space from Input boxes */
+  margin-left: 5px; /*creates bottom space from Input boxes */
+}
+/*-----------------------------*/
+.login-container {   /*controls the border around the Log In header, input boxes, and Login button. */
+  border: 5px solid #1a44cc;
+  border-style: groove ;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 120px;
+  max-width: 400px;
+  background-color: rgb(208, 215, 235);
+  padding: 20px; /* Add padding to the container */
+ 
+  
+}
+
+button {  /* button styling  */
+  background-color: #080cf8;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* button transition for a smooth effect */
+
+}
+
+button:hover {    /* when cursor is over button, the color will change  */
+  background-color: #7e8286; /* background color change on hover */
+}
+
+
+.navbar {   /* navbar style */
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
